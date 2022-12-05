@@ -6,11 +6,11 @@ https://www.techopedia.com/2/30767/security/10-best-practices-for-encryption-key
 Symmetric Crypto  = Best for data at rest
 Asymmetric Crypto = Best for data in transit
 
-###1. Encryption Key Algorithm and Size
+1. Encryption Key Algorithm and Size
 The sensitivity of the data should ascertain the length of the key, be it 128/256 bit key sizes for AES or for RSA – 2048 and 4096 bits.
 Long keys could cause performance issues.
 
-###2. Centralized Key Management System
+2. Centralized Key Management System
 Best to have an in-house key management service.
 3rd party solutions are also acceptabl as they might offer a more sophisticated management plan. 
 Also, if there is a server breach, the keys maintained by the 3rd party solution are less likely to be compromised.
@@ -18,32 +18,32 @@ Also, if there is a server breach, the keys maintained by the 3rd party solution
 Eg. Azure Key Vault
 (need more details)
 
-###3. Secure Storage
+3. Secure Storage
 Use HSM - hardware security model 
 Physical security
 
-###4. Using Automation
+4. Using Automation
 Using automation to generate, rotate and renew keys periodically
 
-###5. Access & Audit Logs
+5. Access & Audit Logs
 Log all details pertaining to key creation, deletion, access, usage
 
-###6. Backups
+6. Backups
 Maintain robust back up solution.
 Encrypt back up keys securely.
 
-###7. Key Lifecycle Management
+7. Key Lifecycle Management
 A> Key Generation: Use high entropy keys. Use a NIST certified random number generator
 B> Key Rotation: Use a key profile to better manage encryption and decryption of data when key is changed
 C> Key Retirement: Delete permanently.
 
-###8. Third-party Integration
+8. Third-party Integration
 Use API Gateway for monitoring, analytics, alerting, life-cycle management features (APIs).
 Some of the popular API management tools are Google Apigee, IBM API Connect, Amazon API Gateway and Azure API Gateway.
 
-###9. Least Privilege
+9. Least Privilege
 User role-based access
 Deny by default
 
-###10. Termination
+10. Termination
 Proper controls in place to revoke and terminate keys
