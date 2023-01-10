@@ -6,7 +6,7 @@ https://www.techopedia.com/2/30767/security/10-best-practices-for-encryption-key
 Symmetric Crypto  = Best for data at rest
 Asymmetric Crypto = Best for data in transit
 
-### 1. Encryption Key Algorithm and Size
+1. Encryption Key Algorithm and Size
 The sensitivity of the data should ascertain the length of the key, be it 128/256 bit key sizes for AES or for RSA – 2048 and 4096 bits.
 Long keys could cause performance issues.
 
